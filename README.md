@@ -4,3 +4,4 @@
 
 ## Durum
 - [x] Adım 1: Repo ve ortam kurulumu
+- [x] Adım 2: Regresyon mini alıştırması (scikit-learn, MSE/RMSE)
