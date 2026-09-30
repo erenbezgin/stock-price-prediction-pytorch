@@ -8,3 +8,4 @@
 - [x] Adım 3: PyTorch temelleri (tensor, training loop, doğrusal regresyon)
 - [x] Adım 4: Hisse verisi indirme, EDA, normalizasyon ve sliding window
 - [x] Adım 5: LSTM ve GRU modellerini tanımlama ve eğitme
+- [x] Adım 6: Test değerlendirmesi, LSTM vs GRU karşılaştırması, naive baseline kontrolü
