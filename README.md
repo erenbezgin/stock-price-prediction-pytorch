@@ -1,11 +1,26 @@
 ﻿# Stock Price Prediction with PyTorch (LSTM vs GRU)
 
-1 haftalık ML öğrenme planı kapsamında geliştirilen, LSTM ve GRU modelleriyle hisse fiyatı tahmini projesi.
+AMZN hisse verisi üzerinde, PyTorch ile LSTM ve GRU modelleri kullanarak zaman serisi
+fiyat tahmini yapan bir öğrenme projesi. 6 haftalık bir ML öğrenme planı kapsamında,
+her adım ayrı bir commit olarak geliştirildi.
 
-## Durum
-- [x] Adım 1: Repo ve ortam kurulumu
-- [x] Adım 2: Regresyon mini alıştırması (scikit-learn, MSE/RMSE)
-- [x] Adım 3: PyTorch temelleri (tensor, training loop, doğrusal regresyon)
-- [x] Adım 4: Hisse verisi indirme, EDA, normalizasyon ve sliding window
-- [x] Adım 5: LSTM ve GRU modellerini tanımlama ve eğitme
-- [x] Adım 6: Test değerlendirmesi, LSTM vs GRU karşılaştırması, naive baseline kontrolü
+## Proje Amacı
+
+- ML temellerini (regresyon, train/test split, MSE/RMSE) pratikte öğrenmek
+- PyTorch'un temel iş akışını (tensor, nn.Module, training loop) kavramak
+- Gerçek zaman serisi verisiyle (hisse fiyatları) çalışmak: normalizasyon, sliding window
+- LSTM ve GRU mimarilerini uygulamak ve karşılaştırmak
+- Sonuçları eleştirel biçimde değerlendirmek (naive baseline ile kıyaslama)
+
+## Kurulum
+
+```bash
+git clone https://github.com/KULLANICI_ADIN/stock-price-prediction-pytorch.git
+cd stock-price-prediction-pytorch
+python -m venv .venv
+.venv\Scripts\activate          # Windows
+python -m pip install -r requirements.txt
+jupyter notebook
+```
+
+## Proje Yapısı
